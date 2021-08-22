@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Photo Album</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+  <h1 class="heading-albums">Albums</h1>
+  <div class="wrapper">
+    <!-- filter Items -->
+    <nav>
+      <div class="items">
+        <span class="item active" data-name="all">All</span>
+        <span class="item" data-name="nature">Nature</span>
+        <span class="item" data-name="PC">PC</span>
+        <span class="item" data-name="watch">Watch</span>
+        <span class="item" data-name="camera">Camera</span>
+        <span class="item" data-name="headphone">Headphone</span>
+      </div>
+    </nav>
+    <!-- filter Images -->
+    <div class="gallery">
+      <div class="image" data-name="nature"><span><img src="images/nature-1.jpg" alt=""></span></div>
+
+      <div class="image" data-name="PC"><span><img src="images/pc-4.jpg" alt=""></span></div>
+
+      <div class="image" data-name="camera"><span><img src="images/camera-3.jpg" alt=""></span></div>
+
+      <div class="image" data-name="nature"><span><img src="images/nature-2.jpg" alt=""></span></div>
+
+      <div class="image" data-name="PC"><span><img src="images/pc-5.jpg" alt=""></span></div>
+
+      <div class="image" data-name="headphone"><span><img src="images/headphone-1.jpg" alt=""></span></div>
+
+      <div class="image" data-name="nature"><span><img src="images/nature-3.jpg" alt=""></span></div>
+
+      <div class="image" data-name="camera"><span><img src="images/camera-4.jpg" alt=""></span></div>
+
+      <div class="image" data-name="PC"><span><img src="images/pc-6.jpg" alt=""></span></div>
+
+      <div class="image" data-name="nature"><span><img src="images/nature-4.jpg" alt=""></span></div>
+
+      <div class="image" data-name="camera"><span><img src="images/camera-1.jpg" alt=""></span></div>
+
+      <div class="image" data-name="PC"><span><img src="images/pc-1.jpg" alt=""></span></div>
+
+      <div class="image" data-name="headphone"><span><img src="images/headphone-2.jpg" alt=""></span></div>
+
+      <div class="image" data-name="watch"><span><img src="images/watch-1.jpg" alt=""></span></div>
+
+      <div class="image" data-name="camera"><span><img src="images/camera-5.jpg" alt=""></span></div>
+
+      <div class="image" data-name="nature"><span><img src="images/nature-5.jpg" alt=""></span></div>
+
+      <div class="image" data-name="PC"><span><img src="images/pc-3.jpg" alt=""></span></div>
+
+      <div class="image" data-name="camera"><span><img src="images/camera-2.jpg" alt=""></span></div>
+    </div>
+  </div>
+  <!-- fullscreen img preview box -->
+  <div class="preview-box">
+    <div class="details">
+      <span class="title">Image Category: <p></p></span>
+      <span class="icon fas fa-times"></span>
+    </div>
+    <div class="image-box"><img src="" alt=""></div>
+  </div>
+  <div class="shadow"></div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
